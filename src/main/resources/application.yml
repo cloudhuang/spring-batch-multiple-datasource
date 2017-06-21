@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password:
+  jpa:
+    show-sql: true
+  batch:
+    initializer:
+      enabled: true
+management:
+  security:
+    enabled: false
